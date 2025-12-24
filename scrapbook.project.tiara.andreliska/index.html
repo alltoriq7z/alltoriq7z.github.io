@@ -73,7 +73,7 @@
       const swalo = Swal.mixin({ allowOutsideClick: false, reverseButtons: true });
       async function kirimPesan() {
         if (isKlikAudio) klikA.play();
-        const { value: pesan } = await swalo.fire({ title: "Do You Like it", input: "textarea", confirmButtonText: "Kirim" });
+        const { value: pesan } = await swalo.fire({ title: "semogaa suka ya", input: "textarea", confirmButtonText: "Kirim" });
         if (isKlikAudio) klikA.play();
         if (pesan) {
           await swalo.fire({ title: "Kirim pesannya ke aku yaa" });
@@ -87,6 +87,7 @@
     <script src="script.js"></script>
   </body>
 </html>
+
 
 
 
